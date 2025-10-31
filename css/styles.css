@@ -1080,17 +1080,18 @@ img {
   .footer {
     background-color: #2e2f42;
   }
-
-  .footer-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    text-align: left;
-    width: 100%;
-    max-width: initial;
-    margin-left: 92px;
-    gap: 72px 24px;
+  
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        max-width: 768px;
+        gap: 72px 24px;
+        padding: 0 92px;
+        
   }
 
   .footer-container {
@@ -1243,7 +1244,11 @@ img {
     gap: 120px;
     align-items: center;
   }
-
+    .footer-content {
+      max-width: 1158px;
+      padding: 0 15px;
+      margin: auto;
+    }
   .footer-content > div {
     flex: 1 2;
   }
@@ -1596,7 +1601,6 @@ img {
 }
 
 /* mobile-menu */
-
 
 .mobile-menu {
   position: fixed;
