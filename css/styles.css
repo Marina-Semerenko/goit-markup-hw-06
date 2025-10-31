@@ -1613,7 +1613,7 @@ img {
 }
 
 
-.mobile-menu.is-open {
+.mobile-menu. {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
