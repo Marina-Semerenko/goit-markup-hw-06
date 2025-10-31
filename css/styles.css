@@ -429,7 +429,7 @@ img {
     gap: 24px;
   }
  .features-description {
-  width: 356px;
+  width: 100%;
  }
   .features-list .features-item {
     width: calc((100% - 28px) / 2);
@@ -611,6 +611,10 @@ img {
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
+  }
+
+  .social-list {
+    gap: 10px;
   }
 
   .team-section .team-list .team-item {
@@ -1249,9 +1253,10 @@ img {
       padding: 0 15px;
       margin: auto;
     }
-  .footer-content > div {
-    flex: 1 2;
-  }
+    .footer-content > div {
+      flex: 0;
+      margin: initial;
+    }
 
   .footer-logo .logo-part {
     color: #f4f4fd
@@ -1297,7 +1302,9 @@ img {
 
   .footer-content {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px
   }
 
   .footer-icon {
