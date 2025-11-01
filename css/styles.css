@@ -429,10 +429,11 @@ img {
   .features-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap:72px 24px;
   }
 
   .features-description {
+    font-weight: 400;
     width: 100%;
   }
 
@@ -827,7 +828,7 @@ img {
   }
 
   .portfolio-list .portfolio-item {
-    width: calc((100% - 24px * 2) / 2);
+    width: calc((100% - 24px ) / 2);
   }
 
   .portfolio-item:hover .overlay-text {
