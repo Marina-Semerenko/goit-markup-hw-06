@@ -976,7 +976,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin: 10px 0 0 0;
+ 
   width: 288px;
 }
 
@@ -1204,8 +1204,8 @@ img {
 
   .footer-form {
     display: flex;
-
     flex-direction: row;
+    gap: 24px;
   }
 
   .footer-form-input {
@@ -1215,8 +1215,7 @@ img {
     background-color: transparent;
     font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
+    letter-spacing: 0.04em;    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
@@ -1228,8 +1227,7 @@ img {
     height: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 24px;
+    align-items: center;   
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
