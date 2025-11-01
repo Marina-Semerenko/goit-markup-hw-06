@@ -613,17 +613,18 @@ img {
 
 @media screen and (min-width: 1158px) {
   .team-section {
-    padding: 120px 0;
+    padding: 120px 0px;
   }
-
   .team-section .team-list {
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
   }
-
+  .team-list {
+    padding: 0;
+  }
   .social-list {
-    gap: 10px;
+    gap: 24px;
   }
 
   .team-section .team-list .team-item {
